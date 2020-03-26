@@ -1,0 +1,42 @@
+[
+    {
+        "icn":"/icon1.png",
+        "text":"Accountant"
+    },
+    {
+        "icn":"/icon2.png",
+        "text":"BPO / Customer care"
+    },
+    {
+        "icn":"/icon3.png",
+        "text":"Data Entry / Back Office"
+    },
+    {
+        "icn":"/icon4.png",
+        "text":"Sales / Marketing"
+    },
+    {
+        "icn":"/icon5.png",
+        "text":"Receptionist / Front Office"
+    },
+    {
+        "icn":"/icon6.png",
+        "text":"Hospitality Executives"
+    },
+    {
+        "icn":"/icon7.png",
+        "text":"Delivery"
+    },
+    {
+        "icn":"/icon8.png",
+        "text":"Cook / Chef"
+    },
+    {
+        "icn":"/icon9.png",
+        "text":"Beauticians / Spa"
+    },
+    {
+        "icn":"/icon10.png",
+        "text":"Driver"
+    }
+]

@@ -2,12 +2,253 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif,'DejaVuSans','AdobeInvisFont','MyriadHebrew-Regular','OpenSans';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'DejaVuSans','AdobeInvisFont','MyriadHebrew-Regular','OpenSans';
+}
+nav{
+  height: 93px;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background-color: #1d1b4bff;
+}
+nav h1{
+  
+  font-weight: 700;
+}
+.nav-link{
+  display: flex;
+  justify-content: space-around;
+  width:30%;
+  list-style: none;
+  align-items: center;
+  font-weight: 400;
+  transition: all 0.8s;
+  
+}
+.landpage{
+  display:flex;
+  width: 100%;
+  height: 400px;
+  margin: 0px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  background-color: #262362;
+  color:#ffffff;
+}
+.intro{
+  display: flex;
+  color:#ffffff;
+  text-align: left;
+  width: 489px;
+  height: 191px;
+  margin: 44px 10%;
+  flex-direction: column;
+}
+.usertype{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0px;
+  width: 100%;
+  height: 400px;
+  overflow-x: hidden;
+}
+.topjobs{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  height: auto;
+  width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+}
+.topjob{
+  display: flex;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  flex-direction: column;
+}
+.middle{
+  display: flex;
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+  margin: 15px auto;
+  box-sizing: border-box;
+  padding: 55px 15px;
+  background-image: linear-gradient(#E2E8FF,#fff);
+}
+.lbaner{
+  width: 100%;
+  display: flex;
+  height: 87px;
+  background-color: #121A4F;
+  box-sizing: border-box;
+  page-break-after: auto;
+  color: #ffffff;
+  position: relative;
+
+}
+.lbaner p{
+  margin: 29px 29px 15px 30px;
+}
+.lbaner img{
+  position: absolute;
+
+top: -185%;
+
+right: 0;
+
+width: 20%;
+
+height: auto;
+}
+.Footer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  height: auto;
+
+
+}
+.elem1{
+display: flex;
+flex-direction: column;
+text-align: left;
+box-sizing: border-box;
+margin:15px;
+padding: 15px;
+}
+.elem1 img{
+  width:40%;
+  height: auto;
+}
+.middle img{
+  height: 80%;
+  width: auto;
+}
+.banner{
+  display: flex;
+  margin:30px 0px;
+  justify-content: space-around;
+}
+.bannercontent{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 7px 0px 15px 0px;
+  width: 550px;
+  box-sizing: border-box;
+  line-height: 30px;
+
+}
+.bannercontent h2{
+  font-size:30px;
+  font-weight: 200;
+  margin: 10px 0px;
+}
+
+.cardcontainer{
+  display: grid;
+  width:100%;
+  height: auto;
+  overflow-x: hidden;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+
+}
+.footer{
+  width: 100%;
+  display: block;
+  background-color:#F8F8F8;
+  height: 90px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  box-sizing: border-box;
+  padding: 15px;
+  color: #b9b9b9;
+}
+.card{
+  display:grid;
+  grid-template-columns: auto;
+  position: relative;
+  box-sizing: border-box;
+  width: 350px;
+  height: 341px;
+  border-radius: 8px;
+  box-shadow: 0px -1px 14px rgb(214, 214, 214);
+  padding: 100px 15px;
+  margin: 100px auto;
+  background-color: #ffffff;
+}
+.card img{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: -27%;
+  left: 25%;
+}
+.card .btn{
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 47px;
+  background-color:#EC9B30;
+  color:#fff;
+  position: absolute;
+  bottom: -7%;
+  left: 40%;
+  transform: rotateZ(90deg);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.lanimg{
+  position: absolute;
+  right: -5%;
+  margin-top: 44px;
+
+
+}
+.usercard{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  background-color: #FBB03A;
+  padding-left: 48px;
+  padding-top:48px;
+  padding-right: 136px;
+  box-sizing: border-box;
+  width: 455px;
+  height: 281px;
+  
+ 
+}
+.usercard h2,h3,h4,h5{
+  margin: 0px;
+}
+.usercard:nth-child(2){
+  background-color: #ffffff;
+}
+.rbtn{
+  width: 133px;
+
+  height: 48px;
+
+  border-radius: 29px;
+
+  background-color:#fff;
+
+  border: 2px solid orange;
+  cursor: pointer;
 }
